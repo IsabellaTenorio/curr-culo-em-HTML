@@ -1,0 +1,70 @@
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Define o estilo geral da página */
+body {
+    font-family: 'Roboto', sans-serif; /* Fonte moderna */
+    background-color: #000; /* Fundo preto */
+    color: #fff; /* Texto branco */
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Container principal */
+.container {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    align-items: flex-start;
+    background-color: #111; /* Fundo mais escuro para o conteúdo */
+    padding: 20px;
+    border-radius: 8px;
+}
+
+/* Estilo da foto */
+.photo img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+/* Estilo das informações */
+.info {
+    max-width: 600px;
+}
+
+/* Estilo dos cabeçalhos */
+h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 1.5rem;
+    color: #aaa;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 1.2rem;
+    margin: 20px 0 10px;
+}
+
+/* Estilo dos parágrafos */
+p {
+    margin-bottom: 10px;
+}
+
+/* Estilo das listas */
+ul {
+    list-style-type: none;
+}
+
+li {
+    margin-bottom: 5px;
+}
